@@ -350,13 +350,13 @@ a {
     padding: 12px 12px;
 }
 
+.team-masseges-svg {
+    fill: #f4f4fd;
+}
+
 .team-masseges-link:hover,
 .team-masseges-link:focus {
     background-color: #404bbf;
-}
-
-.team-masseges-svg {
-    fill: #f4f4fd;
 }
 
 /* ============= Team END */
