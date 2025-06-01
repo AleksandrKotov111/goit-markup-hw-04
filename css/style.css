@@ -49,7 +49,6 @@ a {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header a {
@@ -92,24 +91,11 @@ a {
 }
 
 .header__menu-link {
-    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__menu-link::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+    color: #2e2f42;
 }
 
 .header__menu-link:hover {
@@ -138,7 +124,6 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address__link:hover,
@@ -157,6 +142,11 @@ a {
 /* =========== Container big */
 
 .section-container-big {
+    background-image: url("../images/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #2e2f42;
     padding: 188px 0;
     background-color: #2e2f42;
     display: flex;
@@ -201,6 +191,17 @@ a {
 /* =========== Container big END */
 /* =========== Strategy */
 
+
+.strategy-img{
+    max-width: 264px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 24px 102px;
+    background-color: #f4f4fd;;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
 .section-strategy {
     padding: 120px 0;
 }
@@ -228,6 +229,7 @@ a {
 }
 
 .strategy__subtitle {
+    margin-top: 8px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -303,6 +305,25 @@ a {
     color: #434455;
 }
 
+.team-masseges-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team-masseges-item {
+    display: flex;
+    background-color: #404BBF;
+    border-radius: 50%;
+    padding: 12px 12px;
+}
+
+.team-masseges-link {
+    display: flex;
+}
+
 /* ============= Team END */
 /* =========== Portfolio */
 
@@ -358,6 +379,15 @@ a {
     background-color: #2E2F42;
 }
 
+.footer .container {
+    display: flex;
+
+}
+
+.footer__logo {
+    margin-right: 120px;
+}
+
 .footer__link{
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -381,5 +411,33 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-masseges-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-masseges-item{
+    display: flex;
+    background-color: #404BBF;
+    border-radius: 50%;
+    padding: 8px 8px;
+}
+
+.footer-masseges-link {
+    display: flex;
+}
+
 
 /* ===========Footer END============ */
